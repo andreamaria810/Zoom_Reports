@@ -1,0 +1,155 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Transcript Analysis Report</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background-color: #ffffff;
+            color: #1a1a1a;
+            line-height: 1.6;
+        }
+        .header {
+            border-bottom: 2px solid #e5e5e5;
+            padding-bottom: 20px;
+            margin-bottom: 40px;
+        }
+        .header h1 {
+            margin: 0 0 10px 0;
+            font-size: 24px;
+            font-weight: 600;
+            color: #1a1a1a;
+        }
+        .header .meta {
+            font-size: 14px;
+            color: #666;
+        }
+        .summary {
+            margin-bottom: 40px;
+        }
+        .summary h2 {
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 20px;
+            color: #1a1a1a;
+        }
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+        .stat-box {
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 4px;
+        }
+        .stat-number {
+            font-size: 28px;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 4px;
+        }
+        .stat-label {
+            font-size: 13px;
+            color: #666;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        .section-title {
+            font-size: 18px;
+            font-weight: 600;
+            margin: 40px 0 20px 0;
+            color: #1a1a1a;
+        }
+        .risk-item {
+            padding: 20px;
+            margin-bottom: 20px;
+            border: 1px solid #e5e5e5;
+            border-radius: 4px;
+            background-color: #fafafa;
+        }
+        .timestamp {
+            font-size: 13px;
+            color: #666;
+            margin-bottom: 8px;
+        }
+        .speaker {
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 12px;
+        }
+        .flagged-text {
+            padding: 12px;
+            background-color: #fff;
+            border-left: 3px solid #d32f2f;
+            margin: 12px 0;
+            font-size: 15px;
+        }
+        .keywords {
+            font-size: 13px;
+            color: #d32f2f;
+            margin-top: 12px;
+        }
+        .context {
+            font-size: 13px;
+            color: #888;
+            margin-top: 16px;
+            padding-top: 16px;
+            border-top: 1px solid #e5e5e5;
+        }
+        .context-label {
+            font-weight: 600;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Transcript Analysis Report</h1>
+        <div class="meta">
+            <div>Generated: October 26, 2025 at 05:05 PM</div>
+            <div>Source: C:\Users\amari\OneDrive\Documents\new_scripts\zoom_parser\transcripts\Technical difficulties - GMT20250821-130122_Recording.transcript.vtt</div>
+        </div>
+    </div>
+    
+    <div class="summary">
+        <h2>Overview</h2>
+        <div class="stats">
+            <div class="stat-box">
+                <div class="stat-number">319</div>
+                <div class="stat-label">Total Segments</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">1</div>
+                <div class="stat-label">Flagged Segments</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">0.3%</div>
+                <div class="stat-label">Risk Rate</div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="section-title">Flagged Content (1)</div>
+
+    <div class="risk-item">
+        <div class="timestamp">00:23:28.410</div>
+        <div class="speaker">Tatiana H</div>
+        <div class="flagged-text">
+            having, you know, like, the next 30 minutes, and also not being 100% sure, you'll hear what I'm saying in the next 30 minutes.
+        </div>
+        <div class="keywords">
+            Flagged: 100%
+        </div>
+        <div class="context">
+            <div><span class="context-label">Before:</span> Oh, yeah, yeah, yeah, yeah, I know it's my… I know it's… it's the issue from my department, like, from here. So I'll make them… of course, they won't charge you for the class, and I'll give you, like, a full hour makeup. I think it's better than…</div>
+            <div><span class="context-label">After:</span> Yeah. Alright.</div>
+        </div>
+    </div>
+
+</body>
+</html>
