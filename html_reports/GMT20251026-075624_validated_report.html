@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Validated Transcript Analysis Report</title>
+        <style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+                max-width: 900px;
+                margin: 0 auto;
+                padding: 40px 20px;
+                background-color: #ffffff;
+                color: #1a1a1a;
+                line-height: 1.6;
+            }
+            .header {
+                border-bottom: 2px solid #e5e5e5;
+                padding-bottom: 20px;
+                margin-bottom: 40px;
+            }
+            .header h1 {
+                margin: 0 0 10px 0;
+                font-size: 24px;
+                font-weight: 600;
+            }
+            .risk-item {
+                padding: 20px;
+                margin-bottom: 20px;
+                border: 1px solid #e5e5e5;
+                border-radius: 4px;
+                background-color: #fafafa;
+            }
+            .timestamp {
+                font-size: 13px;
+                color: #666;
+                margin-bottom: 8px;
+            }
+            .speaker {
+                font-weight: 600;
+                color: #1a1a1a;
+                margin-bottom: 12px;
+            }
+            .flagged-text {
+                padding: 12px;
+                background-color: #fff;
+                border-left: 3px solid #1976d2;
+                margin: 12px 0;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Validated Transcript Analysis Report</h1>
+            <div>Generated: October 29, 2025 at 05:45 PM</div>
+            <div>Source: C:\Users\amari\OneDrive\Documents\new_scripts\zoom_parser\transcripts\Normal lesson - GMT20251026-075624_Recording.transcript.vtt</div>
+            <div>Total Validated Flags: 5</div>
+        </div>
+    
+        <div class="risk-item">
+            <div class="timestamp">00:19:20.560</div>
+            <div class="speaker">Dwayne B</div>
+            <div class="flagged-text">No, you don't know, because you haven't started reading it yet.</div>
+            <div>Keywords: don't know</div>
+            <div>Category: Session Quality - Tutor Knowledge Gaps</div>
+            <div>LLM Reason: VALID: The tutor's response indicates a gap in the student's understanding or knowledge related to the subject, as it suggests the student is not up-to-date with the material (Unit 3), implying a lack of knowledge about the Columbian Exchange, which is crucial for the discussion.</div>
+        </div>
+    
+        <div class="risk-item">
+            <div class="timestamp">00:25:19.410</div>
+            <div class="speaker">Ram</div>
+            <div class="flagged-text">I think they lost the war.</div>
+            <div>Keywords: lost</div>
+            <div>Category: Session Quality - Not Understanding Material</div>
+            <div>LLM Reason: VALID: The response indicates a misunderstanding of the material, as the participant's comment about the Ottoman Empire losing the war and being "broken up" suggests confusion about the historical context and the factors that contributed to the empire's decline and eventual dissolution.</div>
+        </div>
+    
+        <div class="risk-item">
+            <div class="timestamp">00:47:17.780</div>
+            <div class="speaker">Dwayne B</div>
+            <div class="flagged-text">Yeah, because they were guaranteed, like, a future.</div>
+            <div>Keywords: guarantee, guaranteed</div>
+            <div>Category: Tutor Policy Breach - Over-Promising</div>
+            <div>LLM Reason: VALID: The text indicates that there was a promise or guarantee of a future associated with a role, which suggests an over-promise. This can be seen as an issue related to potentially misleading expectations about outcomes or opportunities, fitting the definition of a policy breach regarding over-promising.</div>
+        </div>
+    
+        <div class="risk-item">
+            <div class="timestamp">01:01:45.150</div>
+            <div class="speaker">Dwayne B</div>
+            <div class="flagged-text">No worries, because I do not judge you, and I don't know what your lifestyle is like, or how busy you were, or what your weekend was, but what my job is to make sure that you see this from a bigger perspective, and realize that it's not complicated.</div>
+            <div>Keywords: don't know</div>
+            <div>Category: Session Quality - Tutor Knowledge Gaps</div>
+            <div>LLM Reason: VALID: The text indicates a lack of clarity and support in the tutor's explanation. It suggests that the tutor is not addressing the student's needs or understanding effectively. The fragmented and unclear statements ("It's not complicated," "you are taking regions, that… Eventually become countries") demonstrate a gap in the tutor's ability to convey concepts in a comprehensible manner.</div>
+        </div>
+    
+        <div class="risk-item">
+            <div class="timestamp">01:06:44.940</div>
+            <div class="speaker">Dwayne B</div>
+            <div class="flagged-text">Yes, I am giving you the bigger picture idea. And I say Unit 4, pay attention to Unit 4, because the Columbian Exchange</div>
+            <div>Keywords: pay attention</div>
+            <div>Category: Session Quality - Lack of Engagement</div>
+            <div>LLM Reason: VALID: The response indicates a lack of engagement, as the speaker is not directly addressing the question about slavery but instead shifts the focus to the broader topic of the Columbian Exchange without providing relevant information.</div>
+        </div>
+    </body></html>

@@ -1,0 +1,435 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Validated Transcript Analysis Report</title>
+        <style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+                max-width: 900px;
+                margin: 0 auto;
+                padding: 40px 20px;
+                background-color: #ffffff;
+                color: #1a1a1a;
+                line-height: 1.6;
+            }
+            .header {
+                border-bottom: 2px solid #e5e5e5;
+                padding-bottom: 20px;
+                margin-bottom: 40px;
+            }
+            .header h1 {
+                margin: 0 0 10px 0;
+                font-size: 24px;
+                font-weight: 600;
+            }
+            .risk-item {
+                padding: 20px;
+                margin-bottom: 20px;
+                border: 1px solid #e5e5e5;
+                border-radius: 4px;
+                background-color: #fafafa;
+            }
+            .timestamp {
+                font-size: 13px;
+                color: #666;
+                margin-bottom: 8px;
+            }
+            .speaker {
+                font-weight: 600;
+                color: #1a1a1a;
+                margin-bottom: 12px;
+            }
+            .flagged-text {
+                padding: 12px;
+                background-color: #fff;
+                border-left: 3px solid #1976d2;
+                margin: 12px 0;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Validated Transcript Analysis Report</h1>
+            <div>Generated: October 29, 2025 at 05:45 PM</div>
+            <div>Source: C:\Users\amari\OneDrive\Documents\new_scripts\zoom_parser\transcripts\Technical difficulties - GMT20250821-130122_Recording.transcript.vtt</div>
+            <div>Total Validated Flags: 41</div>
+        </div>
+    
+        <div class="risk-item">
+            <div class="timestamp">00:06:55.710</div>
+            <div class="speaker">Tatiana H</div>
+            <div class="flagged-text">Hi, can you hear me?</div>
+            <div>Keywords: can you hear me</div>
+            <div>Category: Technical - Audio Issues</div>
+            <div>LLM Reason: VALID: The text indicates an audio issue where the speaker is uncertain if they can be heard, which fits the definition of "Technical: Audio Issues."</div>
+        </div>
+    
+        <div class="risk-item">
+            <div class="timestamp">00:07:00.200</div>
+            <div class="speaker">Tatiana H</div>
+            <div class="flagged-text">… can't… oh, can you hear me?</div>
+            <div>Keywords: can you hear me</div>
+            <div>Category: Technical - Audio Issues</div>
+            <div>LLM Reason: VALID: The text indicates a problem with audio, as the speaker is uncertain if they can be heard, which clearly relates to audio issues during a conversation.</div>
+        </div>
+    
+        <div class="risk-item">
+            <div class="timestamp">00:07:12.200</div>
+            <div class="speaker">Tatiana H</div>
+            <div class="flagged-text">Yes, can you hear me?</div>
+            <div>Keywords: can you hear me</div>
+            <div>Category: Technical - Audio Issues</div>
+            <div>LLM Reason: VALID - The text indicates a communication issue related to audio, specifically about hearing and being heard, which is pertinent to audio issues.</div>
+        </div>
+    
+        <div class="risk-item">
+            <div class="timestamp">00:07:18.070</div>
+            <div class="speaker">Aariv</div>
+            <div class="flagged-text">Can you hear me?</div>
+            <div>Keywords: can you hear me</div>
+            <div>Category: Technical - Audio Issues</div>
+            <div>LLM Reason: VALID: The text indicates a communication issue related to audio clarity, where one party is questioning whether the other can hear them, which falls under audio issues.</div>
+        </div>
+    
+        <div class="risk-item">
+            <div class="timestamp">00:07:20.300</div>
+            <div class="speaker">Tatiana H</div>
+            <div class="flagged-text">I can, yeah, but can you hear me?</div>
+            <div>Keywords: can you hear me</div>
+            <div>Category: Technical - Audio Issues</div>
+            <div>LLM Reason: VALID - The issue relates to audio clarity and communication, indicating there are potential audio issues preventing effective interaction.</div>
+        </div>
+    
+        <div class="risk-item">
+            <div class="timestamp">00:07:36.100</div>
+            <div class="speaker">Tatiana H</div>
+            <div class="flagged-text">Oh, interesting. I'll double-check my audio, but I think… oh, you can't hear me, one second.</div>
+            <div>Keywords: can't hear</div>
+            <div>Category: Technical - Audio Issues</div>
+            <div>LLM Reason: VALID. The text indicates a clear issue with audio communication, as the person expresses uncertainty about their audio being heard and suggests a temporary inability to hear the other party. This fits within the category of audio issues.</div>
+        </div>
+    
+        <div class="risk-item">
+            <div class="timestamp">00:08:56.340</div>
+            <div class="speaker">Tatiana H</div>
+            <div class="flagged-text">Yes, can you hear me?</div>
+            <div>Keywords: can you hear me</div>
+            <div>Category: Technical - Audio Issues</div>
+            <div>LLM Reason: VALID - The exchange indicates a problem with audio transmission, as one party is unsure whether the other can hear them, suggesting a potential audio issue.</div>
+        </div>
+    
+        <div class="risk-item">
+            <div class="timestamp">00:09:05.080</div>
+            <div class="speaker">Tatiana H</div>
+            <div class="flagged-text">Oh, alright, awesome. Yes, I can hear you, can you hear me?</div>
+            <div>Keywords: can you hear me</div>
+            <div>Category: Technical - Audio Issues</div>
+            <div>LLM Reason: VALID: The text indicates a problem with audio communication, specifically mentioning that one party can hear the other but experiences a delay, which qualifies as an audio issue.</div>
+        </div>
+    
+        <div class="risk-item">
+            <div class="timestamp">00:09:29.330</div>
+            <div class="speaker">Tatiana H</div>
+            <div class="flagged-text">Oh, I see, I see, okay. Good. But is it lagging? Is the Wi-Fi fine now?</div>
+            <div>Keywords: lagging</div>
+            <div>Category: Technical - Connectivity Issues</div>
+            <div>LLM Reason: VALID: The conversation addresses connectivity issues related to audio lag and headphone connection, confirming that the initial problem was due to not using the correct audio device.</div>
+        </div>
+    
+        <div class="risk-item">
+            <div class="timestamp">00:10:51.000</div>
+            <div class="speaker">Tatiana H</div>
+            <div class="flagged-text">Okay, can you hear me properly, by the way?</div>
+            <div>Keywords: can you hear me, by the way</div>
+            <div>Category: Technical - Audio Issues</div>
+            <div>LLM Reason: VALID
+
+Reason: The text addresses audio clarity and communication ("can you hear me properly" and "I can hear you fine"), indicating a potential audio-related issue that was checked and confirmed.</div>
+        </div>
+    
+        <div class="risk-item">
+            <div class="timestamp">00:11:13.160</div>
+            <div class="speaker">Tatiana H</div>
+            <div class="flagged-text">And we focused mainly on altering conditions, altering, what's it called, concentrations. There are other conditions that we can alter when it comes to equilibria, including pressure, and that has to do with gases, right? Because gases</div>
+            <div>Keywords: focus</div>
+            <div>Category: Session Quality - Lack of Engagement</div>
+            <div>LLM Reason: VALID. The text indicates a lack of engagement as the speaker's thoughts seem disjointed and not fully connected to the discussion, suggesting they may not be actively engaging with the topic or audience. The transition between ideas is abrupt, and there is no clear interaction or prompting for feedback from the audience, which is a sign of disengagement.</div>
+        </div>
+    
+        <div class="risk-item">
+            <div class="timestamp">00:14:57.480</div>
+            <div class="speaker">Aariv</div>
+            <div class="flagged-text">I'm not sure. I….</div>
+            <div>Keywords: i'm not sure</div>
+            <div>Category: Session Quality - Tutor Knowledge Gaps</div>
+            <div>LLM Reason: VALID: The tutor's response indicates a lack of depth in their understanding, as they avoid providing a clear answer to the student's inquiry. Instead of addressing the student's uncertainty or question directly, the tutor suggests that the topic is beyond the scope of the curriculum, which could imply a gap in knowledge or inadequate guidance.</div>
+        </div>
+    
+        <div class="risk-item">
+            <div class="timestamp">00:15:32.660</div>
+            <div class="speaker">Tatiana H</div>
+            <div class="flagged-text">Can you hear me properly? I can't tell if I'm lagging or not.</div>
+            <div>Keywords: can you hear me, lagging</div>
+            <div>Category: Technical - Audio Issues</div>
+            <div>LLM Reason: VALID: The text indicates potential audio issues (difficulty in hearing and concerns about lag), aligning with the 'Technical: Audio Issues' category.</div>
+        </div>
+    
+        <div class="risk-item">
+            <div class="timestamp">00:15:41.100</div>
+            <div class="speaker">Tatiana H</div>
+            <div class="flagged-text">I am definitely lagging. Or, or I don't know, there's something off.</div>
+            <div>Keywords: lagging, don't know</div>
+            <div>Category: Technical - Connectivity Issues</div>
+            <div>LLM Reason: VALID: The user is experiencing issues related to connectivity, as indicated by the mention of lagging and the description of "slight cuts," which suggests interruptions in their connection.</div>
+        </div>
+    
+        <div class="risk-item">
+            <div class="timestamp">00:16:25.630</div>
+            <div class="speaker">Tatiana H</div>
+            <div class="flagged-text">Hello, can you hear me?</div>
+            <div>Keywords: can you hear me</div>
+            <div>Category: Technical - Audio Issues</div>
+            <div>LLM Reason: VALID - The text indicates a problem with audio communication, as the person is asking if they can be heard and expressing uncertainty about their Wi-Fi connection, which relates to potential audio issues.</div>
+        </div>
+    
+        <div class="risk-item">
+            <div class="timestamp">00:16:29.450</div>
+            <div class="speaker">Tatiana H</div>
+            <div class="flagged-text">Yeah, can you hear me better now?</div>
+            <div>Keywords: can you hear me</div>
+            <div>Category: Technical - Audio Issues</div>
+            <div>LLM Reason: VALID: The text indicates a clear communication problem regarding audio quality, which is a typical technical audio issue. The interaction shows an initial inability to hear followed by a resolution, justifying the classification.</div>
+        </div>
+    
+        <div class="risk-item">
+            <div class="timestamp">00:16:34.620</div>
+            <div class="speaker">Tatiana H</div>
+            <div class="flagged-text">Okay, if at some point it starts lagging to the point where you're not understanding what I'm saying.</div>
+            <div>Keywords: lagging</div>
+            <div>Category: Technical - Connectivity Issues</div>
+            <div>LLM Reason: VALID: The statement indicates a concern about lag affecting the understanding of communication, which is a clear sign of connectivity issues.</div>
+        </div>
+    
+        <div class="risk-item">
+            <div class="timestamp">00:16:47.640</div>
+            <div class="speaker">Tatiana H</div>
+            <div class="flagged-text">find another meeting room. I don't know.</div>
+            <div>Keywords: don't know</div>
+            <div>Category: Session Quality - Tutor Knowledge Gaps</div>
+            <div>LLM Reason: VALID: The provided text indicates confusion and a lack of knowledge regarding finding a meeting room, which showcases a gap in the tutor's ability to effectively guide the student. The phrase "I don't know" suggests that the tutor is unable to provide necessary information or support, illustrating a knowledge gap in the context of the session.</div>
+        </div>
+    
+        <div class="risk-item">
+            <div class="timestamp">00:17:32.960</div>
+            <div class="speaker">Tatiana H</div>
+            <div class="flagged-text">Hello, can you hear me?</div>
+            <div>Keywords: can you hear me</div>
+            <div>Category: Technical - Audio Issues</div>
+            <div>LLM Reason: VALID - The text describes a situation where audio communication problems are occurring, indicating an issue with sound or connection during a conversation. The dialogue suggests confusion and attempts to resolve the audio issue, fitting the category of "Technical: Audio Issues."</div>
+        </div>
+    
+        <div class="risk-item">
+            <div class="timestamp">00:17:40.160</div>
+            <div class="speaker">Tatiana H</div>
+            <div class="flagged-text">Yeah, I can't tell… I can't tell if I'm the one that's lagging, or if it's your… if it's your Wi-Fi, I'm….</div>
+            <div>Keywords: lagging</div>
+            <div>Category: Technical - Connectivity Issues</div>
+            <div>LLM Reason: VALID
+
+Reason: The text clearly indicates uncertainty regarding the source of the connectivity problem, mentioning both the individual's own potential lagging and the Wi-Fi quality. This aligns with the 'Technical: Connectivity Issues' issue category.</div>
+        </div>
+    
+        <div class="risk-item">
+            <div class="timestamp">00:18:17.150</div>
+            <div class="speaker">Tatiana H</div>
+            <div class="flagged-text">Yes, can you hear me still?</div>
+            <div>Keywords: can you hear me</div>
+            <div>Category: Technical - Audio Issues</div>
+            <div>LLM Reason: VALID. The exchange indicates that there is a problem with audio clarity, as one participant is struggling to be heard, which fits the category of 'Technical: Audio Issues'.</div>
+        </div>
+    
+        <div class="risk-item">
+            <div class="timestamp">00:19:51.900</div>
+            <div class="speaker">Tatiana H</div>
+            <div class="flagged-text">Okay, can you hear me now?</div>
+            <div>Keywords: can you hear me</div>
+            <div>Category: Technical - Audio Issues</div>
+            <div>LLM Reason: VALID - The text indicates a conversation about audio clarity, with specific references to sound issues and attempts to resolve them, which aligns with the 'Technical: Audio Issues' category.</div>
+        </div>
+    
+        <div class="risk-item">
+            <div class="timestamp">00:19:57.400</div>
+            <div class="speaker">Tatiana H</div>
+            <div class="flagged-text">Oh my god, I'm so sorry, I don't know why. Some meeting rooms… in some meeting rooms in my department, the connection is weird. If I start lagging at any point, let me know again. But yeah, we lost, like.</div>
+            <div>Keywords: lagging, connection, lost, don't know</div>
+            <div>Category: Technical - Connectivity Issues</div>
+            <div>LLM Reason: VALID: The text clearly indicates there are connectivity issues with the meeting rooms, as the speaker mentions experiencing weird connection and lag. This fits the criteria for a 'Technical: Connectivity Issues' issue.</div>
+        </div>
+    
+        <div class="risk-item">
+            <div class="timestamp">00:20:41.640</div>
+            <div class="speaker">Tatiana H</div>
+            <div class="flagged-text">I think I'm still lagging, am I not?</div>
+            <div>Keywords: lagging</div>
+            <div>Category: Technical - Connectivity Issues</div>
+            <div>LLM Reason: VALID: The text indicates a concern about lagging, which suggests a connectivity issue. The mention of "Hello?" in the response implies there may be delays or interruptions in communication.</div>
+        </div>
+    
+        <div class="risk-item">
+            <div class="timestamp">00:20:59.940</div>
+            <div class="speaker">Tatiana H</div>
+            <div class="flagged-text">It's unfair to you if we just go on like this for the next 30, 40 minutes of this session. If the internet issue continues happening, then I'll just ask them to, like, not charge you for the session. Hello? Can you hear me?</div>
+            <div>Keywords: can you hear me, internet</div>
+            <div>Category: Technical - Audio Issues</div>
+            <div>LLM Reason: VALID 
+
+The text describes an ongoing issue with audio (internet connectivity affecting sound), which is directly related to technical audio issues during a session. The speaker is addressing the difficulty in communication and proposing a possible solution if the problem persists.</div>
+        </div>
+    
+        <div class="risk-item">
+            <div class="timestamp">00:21:16.840</div>
+            <div class="speaker">Tatiana H</div>
+            <div class="flagged-text">Yeah, yeah. Can you hear me?</div>
+            <div>Keywords: can you hear me</div>
+            <div>Category: Technical - Audio Issues</div>
+            <div>LLM Reason: VALID - The text clearly indicates a problem with audio communication during a session, with concerns about connectivity issues affecting the interaction, which are characteristic of 'Technical: Audio Issues'.</div>
+        </div>
+    
+        <div class="risk-item">
+            <div class="timestamp">00:21:27.030</div>
+            <div class="speaker">Tatiana H</div>
+            <div class="flagged-text">Yeah, I don't know what to do. So I'll just… ask…</div>
+            <div>Keywords: don't know</div>
+            <div>Category: Session Quality - Tutor Knowledge Gaps</div>
+            <div>LLM Reason: VALID. The text indicates uncertainty and confusion from the tutor, suggesting gaps in knowledge or clarity in guiding the session effectively. The tutor's inability to articulate a clear direction for the student points to a lack of preparedness or understanding of the material or teaching methods needed for the session.</div>
+        </div>
+    
+        <div class="risk-item">
+            <div class="timestamp">00:21:34.390</div>
+            <div class="speaker">Tatiana H</div>
+            <div class="flagged-text">So, would you… I think it's unfair to you… let's try to go on for 5 minutes. Can you hear me… can you hear what I'm saying?</div>
+            <div>Keywords: can you hear me</div>
+            <div>Category: Technical - Audio Issues</div>
+            <div>LLM Reason: VALID - The text clearly indicates a problem with audio communication, as the speaker is asking if the other person can hear them and expressing frustration about the situation not working. This context suggests an audio issue is present.</div>
+        </div>
+    
+        <div class="risk-item">
+            <div class="timestamp">00:22:49.110</div>
+            <div class="speaker">Tatiana H</div>
+            <div class="flagged-text">And I'm not sure it will get resolved in the next 30 minutes.</div>
+            <div>Keywords: i'm not sure</div>
+            <div>Category: Session Quality - Tutor Knowledge Gaps</div>
+            <div>LLM Reason: VALID: The text indicates a lack of clarity or understanding, suggesting a gap in the tutor's knowledge or ability to address the Wi-Fi issue, which may affect the session quality.</div>
+        </div>
+    
+        <div class="risk-item">
+            <div class="timestamp">00:22:57.340</div>
+            <div class="speaker">Tatiana H</div>
+            <div class="flagged-text">Is that fine? I think it's just unfair to you that I just talk and you spend, like, half the time deciphering what I'm saying because of internet issues.</div>
+            <div>Keywords: internet</div>
+            <div>Category: Technical - Connectivity Issues</div>
+            <div>LLM Reason: VALID: The issue described pertains to connectivity problems affecting communication, which is clearly a technical issue related to connectivity.</div>
+        </div>
+    
+        <div class="risk-item">
+            <div class="timestamp">00:23:28.410</div>
+            <div class="speaker">Tatiana H</div>
+            <div class="flagged-text">having, you know, like, the next 30 minutes, and also not being 100% sure, you'll hear what I'm saying in the next 30 minutes.</div>
+            <div>Keywords: 100%</div>
+            <div>Category: Tutor Policy Breach - Over-Promising</div>
+            <div>LLM Reason: VALID
+
+Reason: The tutor is making assurances that they will not charge for the class and will provide a full hour for makeup, which may not be guaranteed or within their authority to promise. This implies over-promising to the student regarding the treatment of the cancellation and the makeup class, potentially leading to unmet expectations.</div>
+        </div>
+    
+        <div class="risk-item">
+            <div class="timestamp">00:26:55.900</div>
+            <div class="speaker">Tatiana H</div>
+            <div class="flagged-text">Can you hear me properly?</div>
+            <div>Keywords: can you hear me</div>
+            <div>Category: Technical - Audio Issues</div>
+            <div>LLM Reason: VALID - The issue described involves audio clarity, with mention of cutting off intermittently, which directly indicates a technical audio problem.</div>
+        </div>
+    
+        <div class="risk-item">
+            <div class="timestamp">00:36:38.960</div>
+            <div class="speaker">Tatiana H</div>
+            <div class="flagged-text">Can you hear me, by the way? I know I've asked, like, a million times, but I… You're good.</div>
+            <div>Keywords: can you hear me, by the way</div>
+            <div>Category: Technical - Audio Issues</div>
+            <div>LLM Reason: VALID: The text describes a situation where users are experiencing audio issues, including delay and repeated requests to confirm if the other party can hear them. This directly relates to "Technical: Audio Issues."</div>
+        </div>
+    
+        <div class="risk-item">
+            <div class="timestamp">00:37:03.110</div>
+            <div class="speaker">Tatiana H</div>
+            <div class="flagged-text">By the way, I just want to put the option forward. Would you rather that we… like… just…</div>
+            <div>Keywords: by the way</div>
+            <div>Category: Session Quality - Off-Topic Discussion</div>
+            <div>LLM Reason: VALID: The text indicates a shift to a suggestion that does not pertain to the primary topic of discussion, which is consistent with an off-topic issue. The mention of Wi-Fi and not charging for the class diverts from the main subject.</div>
+        </div>
+    
+        <div class="risk-item">
+            <div class="timestamp">00:38:24.310</div>
+            <div class="speaker">Tatiana H</div>
+            <div class="flagged-text">Yeah, I can see stuff, but I think maybe… I don't know if it's writing properly, or if it's….</div>
+            <div>Keywords: don't know</div>
+            <div>Category: Session Quality - Tutor Knowledge Gaps</div>
+            <div>LLM Reason: VALID - The text reveals confusion from the learner regarding the effectiveness of the writing tool, indicating a gap in understanding how to use it properly. The presence of uncertainty and mention of a delay suggests the tutor may need to address issues related to the learner's comprehension and usage of the platform.</div>
+        </div>
+    
+        <div class="risk-item">
+            <div class="timestamp">00:39:45.620</div>
+            <div class="speaker">Aariv</div>
+            <div class="flagged-text">Can you hear me?</div>
+            <div>Keywords: can you hear me</div>
+            <div>Category: Technical - Audio Issues</div>
+            <div>LLM Reason: VALID - The text describes an issue related to audio communication, where the speaker is attempting to verify if they are audible to the listener. The context indicates that there are technical difficulties affecting the audio connection, specifically that the listener is not receiving clear input ("you're frozen").</div>
+        </div>
+    
+        <div class="risk-item">
+            <div class="timestamp">00:39:46.300</div>
+            <div class="speaker">Tatiana H</div>
+            <div class="flagged-text">Can you hear me?</div>
+            <div>Keywords: can you hear me</div>
+            <div>Category: Technical - Audio Issues</div>
+            <div>LLM Reason: VALID: The issue clearly indicates a problem with audio, as the speaker is expressing an inability to hear, which directly relates to technical audio issues.</div>
+        </div>
+    
+        <div class="risk-item">
+            <div class="timestamp">00:39:49.460</div>
+            <div class="speaker">Tatiana H</div>
+            <div class="flagged-text">I can't hear… I can't hear anything. God, I… yeah, I don't know how this is gonna work.</div>
+            <div>Keywords: can't hear, don't know</div>
+            <div>Category: Technical - Audio Issues</div>
+            <div>LLM Reason: VALID: The issue clearly describes a problem with audio, specifically the inability to hear anything. This aligns with the "Technical: Audio Issues" category.</div>
+        </div>
+    
+        <div class="risk-item">
+            <div class="timestamp">00:39:56.330</div>
+            <div class="speaker">Tatiana H</div>
+            <div class="flagged-text">Yes, I can hear you. Can you hear me?</div>
+            <div>Keywords: can you hear me</div>
+            <div>Category: Technical - Audio Issues</div>
+            <div>LLM Reason: VALID - The text indicates a communication problem where one party initially cannot hear the other, leading to an audio issue. The context clearly reflects a struggle with audio connectivity, categorizing it as a technical audio issue.</div>
+        </div>
+    
+        <div class="risk-item">
+            <div class="timestamp">00:40:44.000</div>
+            <div class="speaker">Tatiana H</div>
+            <div class="flagged-text">Yeah, can you hear me again? Oh my god. I honestly think this is completely horrible for you, like, I feel so bad. I think this is just not… I think this is gonna be the case for the next, like, 15 minutes or so. …</div>
+            <div>Keywords: can you hear me</div>
+            <div>Category: Technical - Audio Issues</div>
+            <div>LLM Reason: VALID: The text indicates issues with audio communication, as the speaker expresses frustration about the quality of the audio and acknowledges that this will affect the interaction for a period of time.</div>
+        </div>
+    
+        <div class="risk-item">
+            <div class="timestamp">00:41:45.720</div>
+            <div class="speaker">Tatiana H</div>
+            <div class="flagged-text">It's not the best use of your time as well. I feel so bad, I'm so sorry. I don't know what happened to this wife situation. So, I'll make sure they don't charge you for it, because we literally covered, like.</div>
+            <div>Keywords: don't know</div>
+            <div>Category: Session Quality - Tutor Knowledge Gaps</div>
+            <div>LLM Reason: VALID: The tutor expresses uncertainty and confusion about the situation, indicating a lack of knowledge regarding the specific issues at hand (the "wife situation" and the makeup class). This suggests a gap in understanding the context or the materials needed to effectively address the student's needs.</div>
+        </div>
+    </body></html>
